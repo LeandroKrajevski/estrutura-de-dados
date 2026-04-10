@@ -1,4 +1,4 @@
-﻿ATIVIDADE 1
+ATIVIDADE 1
 
 1 -
 
@@ -458,7 +458,7 @@ int isEmpty(Pilha *p) {
 
 // Push
 void push(Pilha *p, char c) {
-    No novo = (No) malloc(sizeof(No));
+    No *novo = (No *) malloc(sizeof(No));
     novo->dado = c;
     novo->prox = p->topo;
     p->topo = novo;
@@ -565,7 +565,7 @@ int isEmpty(Pilha *p) {
 
 
 void push(Pilha *p, char c) {
-    No novo = (No) malloc(sizeof(No));
+    No *novo = (No *) malloc(sizeof(No));
     novo->dado = c;
     novo->prox = p->topo;
     p->topo = novo;
@@ -656,7 +656,7 @@ void init(Fila *f) {
 
 // Enqueue
 void enqueue(Fila *f, int id, int tempo) {
-    Cliente novo = (Cliente) malloc(sizeof(Cliente));
+    Cliente *novo = (Cliente *) malloc(sizeof(Cliente));
     novo->id = id;
     novo->tempoAtendimento = tempo;
     novo->prox = NULL;
