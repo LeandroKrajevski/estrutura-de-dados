@@ -57,12 +57,12 @@ Implementação de **filas (queue)**:
 
 Os exercícios foram desenvolvidos com o objetivo de praticar conceitos importantes de Estrutura de Dados:
 
-  - Vetores e Matrizes: utilizados para armazenar e manipular dados de forma estruturada
-  - Structs: usadas para representar entidades como alunos, livros e clientes
-  - Ponteiros: aplicados para manipulação de memória e passagem por referência
-  - Alocação dinâmica: utilizada em problemas mais avançados
-  - Pilhas: estrutura LIFO aplicada em validação de expressões e inversão de strings
-  - Filas: estrutura FIFO aplicada em simulações de atendimento e sistemas com prioridade
+  - **Vetores e Matrizes:** utilizados para armazenar e manipular dados de forma estruturada
+  - **Structs:** usadas para representar entidades como alunos, livros e clientes
+  - **Ponteiros:** aplicados para manipulação de memória e passagem por referência
+  - **Alocação dinâmica:** utilizada em problemas mais avançados
+  - **Pilhas:** estrutura LIFO aplicada em validação de expressões e inversão de strings
+  - **Filas:** estrutura FIFO aplicada em simulações de atendimento e sistemas com prioridade
 
 ---
 
