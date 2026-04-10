@@ -758,7 +758,7 @@ void init(Fila *f) {
 
 // Inserção ordenada por prioridade
 void enqueue(Fila *f, int id, int paginas, int prioridade) {
-    Documento novo = (Documento) malloc(sizeof(Documento));
+    Documento *novo = (Documento *) malloc(sizeof(Documento));
     novo->id = id;
     novo->paginas = paginas;
     novo->prioridade = prioridade;
